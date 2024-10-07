@@ -2,7 +2,7 @@ const { initialGreeting, generateAIResponse } = require('../services/chatService
 const { saveMessageToSession, updateSession } = require('../services/sessionService');
 
 const resetChat = async (req, res) => {
-  const sessionId = req.sessionID; // get session ID
+  const sessionId = req.sessionID;
 
   // Update MongoDB session data (endTime) when resetting chat
   await updateSession(sessionId, { endTime: new Date() });

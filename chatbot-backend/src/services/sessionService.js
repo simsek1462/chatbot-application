@@ -1,4 +1,4 @@
-const Session = require('../models/sessionModel'); // MongoDB Session model
+const Session = require('../models/sessionModel');
 
 const saveMessageToSession = async (sessionId, message) => {
   await Session.findOneAndUpdate(

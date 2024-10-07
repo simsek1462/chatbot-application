@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Silkscreen:wght@400;700&display=swap');
+.scrollbar {
+    @apply overflow-y-scroll; /* Dikey kaydırma */
+  }
+  
+  .scrollbar::-webkit-scrollbar {
+    width: 8px; /* Scrollbar genişliği */
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Scrollbar arka plan rengi */
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar çubuğu rengi */
+    border-radius: 4px; /* Köşeleri yuvarlak yap */
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Hover durumunda renk değişikliği */
+  }

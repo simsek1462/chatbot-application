@@ -45,7 +45,7 @@ const getGeminiNewResponseOrEndChat = async (req, res) => {
     await updateSession(sessionId,{lastAiResponse: newResponse});
    // await saveMessageToSession(sessionId, { role: 'Bot', message: newResponse });
 
-    if (responseCounter >= 2) {
+    if (responseCounter >= 10) {
       const endMessage = "Thank you for the chat! See you next time!";
       req.session.lastAiResponse = newResponse + " " + endMessage;
       req.session.isDone = true;

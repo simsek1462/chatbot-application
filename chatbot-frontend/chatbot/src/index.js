@@ -6,9 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <App /> // React.StrictMode kaldırıldı
+  <App /> 
 );
 
-// Performans ölçümü için isterseniz bir fonksiyon geçebilirsiniz
-// reportWebVitals(console.log); // Performans ölçümünü etkinleştirmek için bu satırı kullanabilirsiniz
+
 reportWebVitals();

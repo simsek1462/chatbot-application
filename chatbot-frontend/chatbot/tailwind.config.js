@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['Silkscreen', 'sans-serif'], // Başlık için font
-        body: ['Lora', 'monospace'], // Normal yazılar için font
+        heading: ['Silkscreen', 'sans-serif'], 
+        body: ['Lora', 'monospace'],
       },
     },
   },

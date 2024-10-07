@@ -1,5 +1,5 @@
-import React from 'react'; // React'ı içe aktarın
-import Chatbot from './pages/chatBot'; // Yolun doğru olduğundan emin olun
+import React from 'react'; 
+import Chatbot from './pages/chatBot'; 
 
 const App = () => {
   return (
